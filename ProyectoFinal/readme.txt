@@ -2,16 +2,13 @@ PRÁCTICA FINAL --- ESTRUCTURAS DE DATOS
 
 Curso 2018/2019
 
-Realizado por:
-
-	ALBA CASILLAS RODRÍGUEZ
-
+Realizado por: ALBA CASILLAS RODRÍGUEZ
 
 Se han implementado 4 TDA's
 	- diccionario.h	-- diccionario.cpp
   	- letra.h -- letra.cpp
 	- conjuntoLetras.h -- conjuntoLetras.cpp
- 	 - bolsaLetras.h -- bolsaLetras.cpp
+ 	- bolsaLetras.h -- bolsaLetras.cpp
 
 También se han implementado varios programas para comprobar el correcto funcionamiento de los TDA:
 
