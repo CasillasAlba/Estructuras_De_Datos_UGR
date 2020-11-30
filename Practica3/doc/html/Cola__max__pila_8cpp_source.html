@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Cola_max: Fichero Fuente include/Cola_max_pila.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Cola_max
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="annotated.html"><span>Clases</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('Cola__max__pila_8cpp_source.html','');});
+</script>
+<div id="doc-content">
+<div class="header">
+  <div class="headertitle">
+<div class="title">Cola_max_pila.cpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="Cola__max__pila_8hpp.html">Cola_max_pila.hpp</a>&quot;</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">using namespace </span><a class="code" href="namespacestd.html">std</a>;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">//Constructor por defecto</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt;</div><div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="classCola__max.html#af9a05d272cd9447f8ac449e8703c8ecb">    8</a></span>&#160;<a class="code" href="classCola__max.html#af9a05d272cd9447f8ac449e8703c8ecb">Cola_max&lt;T&gt;::Cola_max</a>(){}</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">//Método poner</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt;</div><div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classCola__max.html#aa536bbf82a87b96e488909838c7c1cbf">   12</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="classCola__max.html#aa536bbf82a87b96e488909838c7c1cbf">Cola_max&lt;T&gt;::poner</a>(<span class="keyword">const</span> T &amp; a_insertar){</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;   pila_insercciones.poner(a_insertar);</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;}</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt;</div><div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classCola__max.html#a21f1d915c674522d438f8288177e7ecb">   18</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="classCola__max.html#a21f1d915c674522d438f8288177e7ecb">Cola_max&lt;T&gt;::quitar</a>(){</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment">//Sacar hasta que se vacie y el ultimo que sacas lo devuelves(no return), a medida que sacas vuelcas a otra pila</span></div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment">//vuelves a volcar en la original</span></div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;   <span class="keywordflow">while</span>(!pila_insercciones.vacia()){</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        pila_aux.poner(pila_insercciones.tope().valor);</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        pila_insercciones.quitar();</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        }</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        pila_aux.quitar();</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  <span class="keywordflow">while</span>(!pila_aux.vacia()){</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        pila_insercciones.poner(pila_aux.tope().valor);</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;       pila_aux.quitar();</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    }</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;}</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt;</div><div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="classCola__max.html#a1848fbed456b50d3f3ada0639d189913">   40</a></span>&#160;T &amp; <a class="code" href="classCola__max.html#a1848fbed456b50d3f3ada0639d189913">Cola_max&lt;T&gt;::frente</a> (){</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keywordflow">while</span>(!pila_insercciones.vacia()){</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;          pila_aux.poner(pila_insercciones.tope().valor);</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;          pila_insercciones.quitar();</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        }</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <span class="keywordflow">return</span> pila_aux.tope().valor;</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;}</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt;</div><div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="classCola__max.html#a246ba95ddc40b6561c6bd8410055c42e">   49</a></span>&#160;T &amp; <a class="code" href="classCola__max.html#a1848fbed456b50d3f3ada0639d189913">Cola_max&lt;T&gt;::frente</a> ()<span class="keyword"> const</span>{</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="keywordflow">while</span>(!pila_insercciones.vacia()){</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;          pila_aux.poner(pila_insercciones.tope().valor);</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;          pila_insercciones.quitar();</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        }</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="keywordflow">return</span> pila_aux.tope().valor;</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;}</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt;</div><div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="classCola__max.html#a3df6075351dfd7c9e9a436a6d430e170">   58</a></span>&#160;<span class="keyword">const</span> T &amp; <a class="code" href="classCola__max.html#a3df6075351dfd7c9e9a436a6d430e170">Cola_max&lt;T&gt;::maximo</a> () {</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordflow">while</span>(!pila_aux.vacia()){</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;         pila_insercciones.poner(pila_aux.tope().valor);</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;         pila_aux.quitar();</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;     }</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <span class="keywordflow">return</span> pila_insercciones.valor_maximo();</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;}</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt;</div><div class="line"><a name="l00067"></a><span class="lineno"><a class="line" href="classCola__max.html#a19ba81d4fee94aeb137247533ba2abc1">   67</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="classCola__max.html#a19ba81d4fee94aeb137247533ba2abc1">Cola_max&lt;T&gt;::num_elementos</a> ()<span class="keyword"> const</span>{</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="keywordflow">return</span> pila_insercciones.numElementos();</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;}</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt;</div><div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="classCola__max.html#af0b18f86af91ef94d7a035f87a4dcb2b">   72</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="classCola__max.html#af0b18f86af91ef94d7a035f87a4dcb2b">Cola_max&lt;T&gt;::vacia</a>(){</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="keywordflow">return</span> (pila_insercciones.vacia());</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;}</div><div class="ttc" id="classCola__max_html_af9a05d272cd9447f8ac449e8703c8ecb"><div class="ttname"><a href="classCola__max.html#af9a05d272cd9447f8ac449e8703c8ecb">Cola_max::Cola_max</a></div><div class="ttdeci">Cola_max()</div><div class="ttdoc">Constructor por defecto. Crea una cola vacía. </div><div class="ttdef"><b>Definition:</b> <a href="Cola__max__pila_8cpp_source.html#l00008">Cola_max_pila.cpp:8</a></div></div>
+<div class="ttc" id="classCola__max_html_a1848fbed456b50d3f3ada0639d189913"><div class="ttname"><a href="classCola__max.html#a1848fbed456b50d3f3ada0639d189913">Cola_max::frente</a></div><div class="ttdeci">T &amp; frente()</div><div class="ttdoc">Devuelve el frente de la Cola. </div><div class="ttdef"><b>Definition:</b> <a href="Cola__max__pila_8cpp_source.html#l00040">Cola_max_pila.cpp:40</a></div></div>
+<div class="ttc" id="Cola__max__pila_8hpp_html"><div class="ttname"><a href="Cola__max__pila_8hpp.html">Cola_max_pila.hpp</a></div><div class="ttdoc">Fichero cabecera del TDA Cola_max. </div></div>
+<div class="ttc" id="classCola__max_html_a19ba81d4fee94aeb137247533ba2abc1"><div class="ttname"><a href="classCola__max.html#a19ba81d4fee94aeb137247533ba2abc1">Cola_max::num_elementos</a></div><div class="ttdeci">int num_elementos() const </div><div class="ttdoc">Devuelve el número de elementos. </div><div class="ttdef"><b>Definition:</b> <a href="Cola__max__pila_8cpp_source.html#l00067">Cola_max_pila.cpp:67</a></div></div>
+<div class="ttc" id="classCola__max_html_a21f1d915c674522d438f8288177e7ecb"><div class="ttname"><a href="classCola__max.html#a21f1d915c674522d438f8288177e7ecb">Cola_max::quitar</a></div><div class="ttdeci">void quitar()</div><div class="ttdoc">ELiminar un elemento de la cola. </div><div class="ttdef"><b>Definition:</b> <a href="Cola__max__pila_8cpp_source.html#l00018">Cola_max_pila.cpp:18</a></div></div>
+<div class="ttc" id="namespacestd_html"><div class="ttname"><a href="namespacestd.html">std</a></div></div>
+<div class="ttc" id="classCola__max_html_aa536bbf82a87b96e488909838c7c1cbf"><div class="ttname"><a href="classCola__max.html#aa536bbf82a87b96e488909838c7c1cbf">Cola_max::poner</a></div><div class="ttdeci">void poner(const T &amp;a_insetar)</div><div class="ttdoc">Añade un elemento a la cola. </div><div class="ttdef"><b>Definition:</b> <a href="Cola__max__pila_8cpp_source.html#l00012">Cola_max_pila.cpp:12</a></div></div>
+<div class="ttc" id="classCola__max_html_a3df6075351dfd7c9e9a436a6d430e170"><div class="ttname"><a href="classCola__max.html#a3df6075351dfd7c9e9a436a6d430e170">Cola_max::maximo</a></div><div class="ttdeci">const T &amp; maximo()</div><div class="ttdoc">Devuelve el máximo de la pila. </div><div class="ttdef"><b>Definition:</b> <a href="Cola__max__pila_8cpp_source.html#l00058">Cola_max_pila.cpp:58</a></div></div>
+<div class="ttc" id="classCola__max_html_af0b18f86af91ef94d7a035f87a4dcb2b"><div class="ttname"><a href="classCola__max.html#af0b18f86af91ef94d7a035f87a4dcb2b">Cola_max::vacia</a></div><div class="ttdeci">bool vacia()</div><div class="ttdoc">Indica si la cola está vacía o no. </div><div class="ttdef"><b>Definition:</b> <a href="Cola__max__pila_8cpp_source.html#l00072">Cola_max_pila.cpp:72</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<hr>
+<small>ETS Ingeniería Informática y Telecomunicaciones. Universidad de Granada.
+</small>

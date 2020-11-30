@@ -1,0 +1,33 @@
+a;the 1st letter of the Roman alphabet
+a;(biochemistry) purine base found in DNA and RNA pairs with thymine in DNA and with uracil in RNA
+a;the basic unit of electric current adopted under the Systeme International d'Unites "a typical household circuit carries 15 to 50 amps"
+a;a metric unit of length equal to one ten billionth of a meter (or 0.0001 micron) used to specify wavelengths of electromagnetic radiation
+a;any of several fat-soluble vitamins essential for normal vision prevents night blindness or inflammation or dryness of the eyes
+a;one of the four nucleotides used in building DNA all four nucleotides have a common phosphate group and a sugar (ribose)
+a;the blood group whose red cells carry the A antigen
+carson;United States frontiersman who guided Fremont's expeditions in the 1840s and served as a Union general in the American Civil War (1809-1868)
+carson;United States biologist remembered for her opposition to the use of pesticides that were hazardous to wildlife (1907-1964)
+carter;someone whose work is driving carts
+carter;Englishman and Egyptologist who in 1922 discovered and excavated the tomb of Tutankhamen (1873-1939)
+carter;39th President of the United States (1924-)
+cartesian;a follower of Cartesian thought
+carthage;an ancient city state on the north African coast near modern Tunis founded by Phoenicians destroyed and rebuilt by Romans razed by Arabs in 697
+dawn;the first light of day "we got up before dawn" "they talked until morning"
+dawn;an opening time period "it was the dawn of the Roman Empire"
+dawn;the earliest period "the dawn of civilization" "the morning of the world"
+dawson;a town in northwestern Canada in the Yukon on the Yukon River a boom town around 1900 when gold was discovered in the Klondike
+edwards;American theologian whose sermons and writings stimulated a period of renewed interest in religion in America (1703-1758)
+edwin;king of Northumbria who was converted to Christianity (585-633)
+egypt;an ancient empire to the west of Israel centered on the Nile River and ruled by a Pharaoh figured in many events described in the Old Testament
+egypt;a republic in northeastern Africa known as the United Arab Republic until 1971 site of an ancient civilization that flourished from 2600 to 30 BC
+egyptian;a native or inhabitant of Egypt
+egyptian;the ancient and now extinct language of Egypt under the Pharaohs written records date back to 3000 BC
+egyptology;archeology of ancient Egyptian artifacts
+mozart;the music of Mozart "the concert was mostly Mozart"
+mozart;prolific Austrian composer and child prodigy master of the classical style in all its forms of his time (1756-1791)
+zulu;a member of the tall Negroid people of eastern South Africa some live in KwaZulu-Natal under the traditional clan system but many now work in the cities
+zulu;a community of Negroid people in eastern South Africa
+zulu;a Bantu language of considerable literary importance in southeastern Africa
+zuni;a member of the Pueblo people living in western New Mexico
+zwingli;Swiss theologian whose sermons began the Reformation in Switzerland (1484-1531)
+zworykin;United States physicist who invented the iconoscope (1889-1982)
